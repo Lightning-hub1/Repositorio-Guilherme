@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilherme Sites — Desenvolvedor Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Playfair+Display:ital@1&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+
+
+<!-- HEADER -->
+<header id="header">
+  <div class="header-inner">
+    <a href="#" class="logo">G<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#sobre" class="nav-link"><span>01</span>Sobre</a>
+      <a href="#projetos" class="nav-link"><span>02</span>Projetos</a>
+      <a href="#precos" class="nav-link"><span>03</span>Valores</a>
+      <a href="#trabalho" class="nav-link"><span>04</span>Como Trabalho</a>
+    </nav>
+    <div class="availability">
+      <span class="dot-green"></span>Disponível para projetos
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#sobre"    class="mob-link">Sobre</a>
+  <a href="#projetos" class="mob-link">Projetos</a>
+  <a href="#precos"   class="mob-link">Valores</a>
+  <a href="#trabalho" class="mob-link">Como Trabalho</a>
+  <a href="https://wa.me/17997421115" class="mob-cta" target="_blank">Entrar em Contato</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">&gt;_ Desenvolvedor Web Freelancer</div>
+    <h1 class="hero-name">
+      <span class="line">GUILHERME</span>
+      <span class="line italic">Sites</span>
+    </h1>
+    <div class="hero-footer">
+      <p class="hero-desc">Crio sites modernos para barbearias,<br>academias e restaurantes que <em>realmente</em> trazem mais clientes.</p>
+      <div class="hero-ctas">
+        <a href="#projetos" class="btn-primary">Ver Projetos →</a>
+        <a href="https://wa.me/17997421115?text=Olá,%20vi%20seu%20portfólio%20e%20quero%20um%20site!" class="btn-ghost" target="_blank">Falar Comigo</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-number">001</div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+  <!-- números flutuantes decorativos -->
+  <div class="hero-stats">
+    <div class="hstat">
+      <span class="hstat-num">+20</span>
+      <span class="hstat-label">Sites entregues</span>
+    </div>
+    <div class="hstat">
+      <span class="hstat-num">100%</span>
+      <span class="hstat-label">Clientes satisfeitos</span>
+    </div>
+    <div class="hstat">
+      <span class="hstat-num">&lt;7d</span>
+      <span class="hstat-label">Prazo de entrega</span>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- SOBRE -->
+<section id="sobre" class="about-section">
+  <div class="about-left reveal">
+    <div class="skills-grid">
+      <div class="skill-item">HTML & CSS</div>
+      <div class="skill-item">JavaScript</div>
+      <div class="skill-item">Design UI/UX</div>
+      <div class="skill-item">Responsivo</div>
+      <div class="skill-item">WhatsApp API</div>
+      <div class="skill-item">SEO Básico</div>
+    </div>
+  </div>
+  <div class="about-right reveal">
+    <div class="section-tag">/ 01 — Sobre mim</div>
+    <h2 class="section-title">Quem<br><em>sou eu</em></h2>
+    <div class="title-bar"></div>
+    <p class="about-text">Sou desenvolvedor web especializado em criar sites de alta performance para pequenos negócios. Meu foco é simples: páginas bonitas que <strong>realmente convertem visitantes em clientes.</strong></p>
+    <p class="about-text">Trabalho com <strong>HTML, CSS e JavaScript</strong> puros — tecnologias leves, rápidas e que funcionam perfeitamente em qualquer dispositivo. Cada site que entrego é construído do zero, pensado para o seu negócio especificamente.</p>
+    <p class="about-text">Já atendi barbearias, academias, restaurantes e outros negócios locais que precisavam de presença digital profissional sem pagar preços de agência.</p>
+    <div class="about-badges">
+      <div class="badge">🚀 Sites rápidos</div>
+      <div class="badge">📱 100% responsivo</div>
+      <div class="badge">🎨 Design exclusivo</div>
+      <div class="badge">✅ Sem templates</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos" class="work-section">
+  <div class="section-header reveal">
+    <div class="section-tag">/ 02 — Projetos Selecionados</div>
+    <h2 class="section-title">Meu<br><em>Trabalho</em></h2>
+  </div>
+
+  <div class="projects-grid">
+
+    <div class="project-item reveal" onclick="window.open('https://restaurante-ex-siteluxo.netlify.app', '_blank'); return false;" style="cursor:pointer">
+      <div class="project-img">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80" alt="Restaurante">
+        <div class="project-overlay">
+          <span class="overlay-tag">Site de Luxo</span>
+          <a href="https://restaurante-ex-siteluxo.netlify.app" class="overlay-link" target="_blank" onclick="event.stopPropagation()">Ver Projeto ↗</a>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-num">01</div>
+        <div class="project-meta">
+          <h3>Site Luxuoso</h3>
+          <p>Design elegante com animações exclusivas e experiência premium</p>
+          <div class="project-tags">
+            <span>Luxo</span><span>Animações</span><span>Premium</span>
+          </div>
+        </div>
+        <div class="project-year">R$ 600</div>
+      </div>
+    </div>
+
+    <div class="project-item reveal" onclick="window.open('https://barbearia-ex-sitepro.netlify.app', '_blank'); return false;" style="cursor:pointer">
+      <div class="project-img">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&q=80" alt="Barbearia">
+        <div class="project-overlay">
+          <span class="overlay-tag">Site Profissional</span>
+          <a href="https://barbearia-ex-sitepro.netlify.app" class="overlay-link" target="_blank" onclick="event.stopPropagation()">Ver Projeto ↗</a>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-num">02</div>
+        <div class="project-meta">
+          <h3>Site Profissional</h3>
+          <p>Site moderno com agendamento integrado ao WhatsApp</p>
+          <div class="project-tags">
+            <span>Profissional</span><span>WhatsApp</span><span>Agendamento</span>
+          </div>
+        </div>
+        <div class="project-year">R$ 400</div>
+      </div>
+    </div>
+
+    <div class="project-item reveal" onclick="window.open('https://academia-ex-sitesimples.netlify.app', '_blank'); return false;" style="cursor:pointer">
+      <div class="project-img">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" alt="Academia">
+        <div class="project-overlay">
+          <span class="overlay-tag">Site Simples</span>
+          <a href="https://academia-ex-sitesimples.netlify.app" class="overlay-link" target="_blank" onclick="event.stopPropagation()">Ver Projeto ↗</a>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-num">03</div>
+        <div class="project-meta">
+          <h3>Site Simples</h3>
+          <p>Layout focado em conversão com apresentação de planos e serviços</p>
+          <div class="project-tags">
+            <span>Simples</span><span>Conversão</span><span>Responsivo</span>
+          </div>
+        </div>
+        <div class="project-year">R$ 250</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PREÇOS -->
+<section id="precos" class="precos-section">
+  <div class="section-header reveal">
+    <div class="section-tag">/ 03 — Investimento</div>
+    <h2 class="section-title">Valores &<br><em>Planos</em></h2>
+  </div>
+
+  <div class="price-grid">
+
+    <div class="price-card reveal">
+      <div class="price-num">01</div>
+      <h3>Site Simples</h3>
+      <div class="price-val">R$ 250</div>
+      <p>Página apresentação com endereço, fotos e informações do negócio.</p>
+      <ul class="price-list">
+        <li>Design moderno e responsivo</li>
+        <li>Seção de serviços e fotos</li>
+      </ul>
+    </div>
+
+    <div class="price-card semi-destaque reveal">
+      <div class="price-num">02</div>
+      <h3>Site Profissional</h3>
+      <div class="price-val">R$ 400</div>
+      <p>Integração com WhatsApp e sistema de agendamento online.</p>
+      <ul class="price-list">
+        <li>Tudo do plano Simples</li>
+        <li>Agendamento via WhatsApp</li>
+        <li>Seção de avaliações</li>
+      </ul>
+    </div>
+
+    <div class="price-card destaque reveal">
+      <div class="price-badge">MAIS VENDIDO</div>
+      <div class="price-num">03</div>
+      <h3>Site Luxuoso</h3>
+      <div class="price-val">R$ 600</div>
+      <p>Design premium, animações exclusivas e experiência de alto nível.</p>
+      <ul class="price-list">
+        <li>Tudo do plano Profissional</li>
+        <li>Animações cinematográficas</li>
+        <li>Design 100% exclusivo</li>
+        <li>Experiência de agência</li>
+      </ul>
+    </div>
+
+    <div class="price-card personalizado reveal">
+      <div class="price-num">✦</div>
+      <h3>Projeto Personalizado</h3>
+      <div class="price-val">Sob consulta</div>
+      <p>Tem uma ideia fora dos padrões? Desenvolvemos juntos do zero, com escopo e preço definidos conforme a sua necessidade.</p>
+      <ul class="price-list">
+        <li>Funcionalidades sob medida</li>
+        <li>Múltiplas páginas</li>
+        <li>Integrações específicas</li>
+        <li>Orçamento personalizado</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <p class="pagamento reveal">💳 Pagamento via Pix — 50% antes · 50% na entrega</p>
+</section>
+
+<!-- AVISO -->
+<div class="aviso reveal">
+  <div class="aviso-icon">⚠️</div>
+  <div class="aviso-body">
+    <h3>Leia antes de entrar em contato</h3>
+    <p>Para garantir um bom andamento do projeto, entenda como funciona meu trabalho antes de solicitar seu site.</p>
+  </div>
+</div>
+
+<!-- COMO TRABALHO -->
+<section id="trabalho" class="trabalho-section">
+  <div class="section-header reveal">
+    <div class="section-tag">/ 04 — Processo</div>
+    <h2 class="section-title">Como eu<br><em>trabalho</em></h2>
+  </div>
+
+  <div class="trabalho-grid">
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">01</div>
+      <div class="t-body">
+        <h4>Organização</h4>
+        <p>Anoto todos os pedidos do cliente e só começo o desenvolvimento após confirmação de que tudo foi entendido corretamente.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">02</div>
+      <div class="t-body">
+        <h4>Personalização</h4>
+        <p>Você pode enviar fotos e escolher os textos do site. Cada projeto é construído do zero, sem templates.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">03</div>
+      <div class="t-body">
+        <h4>Edições</h4>
+        <p>Você tem direito a <strong>até 10 alterações simples</strong> durante o desenvolvimento. Sem custo adicional.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">04</div>
+      <div class="t-body">
+        <h4>Suporte</h4>
+        <p>Correções de bugs gratuitas por até <strong>1 mês</strong> após a entrega do projeto.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">05</div>
+      <div class="t-body">
+        <h4>Pós-entrega</h4>
+        <p>Após a entrega, <strong>nenhuma alteração está incluída</strong>. Qualquer modificação será cobrada à parte.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">06</div>
+      <div class="t-body">
+        <h4>Prazo</h4>
+        <p>Entrego em até <strong>1 semana</strong>, quase sempre antes. Se o prazo não for cumprido, você recebe <strong>20% de desconto</strong>.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">07</div>
+      <div class="t-body">
+        <h4>Tecnologias</h4>
+        <p>Trabalho com <strong>HTML, CSS e JavaScript</strong> — sites rápidos, modernos e responsivos para qualquer dispositivo.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item reveal">
+      <div class="t-num">08</div>
+      <div class="t-body">
+        <h4>Domínio & Hospedagem</h4>
+        <p>Ficam por conta do cliente. Domínio em media<strong>R$ 40/ano</strong> e hospedagem em media<strong>R$ 30/mês</strong>. Te ajudo a contratar e configurar tudo.</p>
+      </div>
+    </div>
+
+    <div class="trabalho-item personalizado-note reveal">
+      <div class="t-num">✦</div>
+      <div class="t-body">
+        <h4>Projetos Personalizados</h4>
+        <p>Para necessidades fora dos pacotes padrão, faço projetos com escopo e valor definidos sob consulta. <strong>Todas as regras acima também se aplicam</strong> a projetos personalizados — organização, edições, prazo, suporte e pós-entrega seguem o mesmo padrão de qualidade.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTATO / CTA FINAL -->
+<section class="contact-section" id="contato">
+  <div class="contact-inner reveal">
+    <div class="section-tag">/ Vamos trabalhar juntos</div>
+    <h2 class="contact-title">Pronto para ter<br><em>seu site?</em></h2>
+    <p class="contact-sub">Me chame no WhatsApp e a gente começa hoje.</p>
+    <a href="https://wa.me/17997421115?text=Olá,%20vi%20seu%20portfólio%20e%20quero%20um%20site%20para%20meu%20negócio!"
+       class="btn-cta-final" target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+      Entrar em contato
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <span class="footer-logo">G<em>.</em></span>
+    <span class="footer-copy">© 2026 Guilherme — Desenvolvedor Web</span>
+    <span class="footer-made">Feito com &lt;/código&gt; 🚀</span>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/17997421115" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
